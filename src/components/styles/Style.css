@@ -1,0 +1,274 @@
+.containerHome {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95vh;
+}
+
+.containerMenu {
+    height: 100%;
+    width: 200px;
+    background-color: rgba(210, 210, 210, 0.7);
+    border-width: 1.5px;
+    border-color: white;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20;
+}
+
+.containerTextHeader {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textHeader {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700
+}
+
+.styleButton {
+    width: 100%;
+    height: 30px;
+    background: rgba(255, 255, 255, 0);
+    border-bottom-width: 1.5px;
+    border-bottom-color: black;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-top: 50px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px
+}
+
+.containerChillder {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* style cho screen ProductManager */
+.containerProductManager {
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center
+}
+
+.containerHeaderProductManager {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px */
+}
+
+.textHeaderProductManager {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700
+}
+
+.styleBntAddProduct {
+    width: 20%;
+    height: 30px;
+    background: rgba(210, 210, 210, 0.7);
+    border-width: 1.5px;
+    border-color: black;
+    border-radius: 7px;
+    color: white;
+    background-color: aquamarine;
+}
+
+.containerProduct {
+    width: 140vh;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(210, 210, 210, 0.7);
+    margin-top: 30px;
+    border-width: 1.5px;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.containerForm {
+    position: absolute;
+    top: 2%;
+    background: white;
+    width: 70vh;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-width: 1.5px;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4)
+}
+
+.textHeaderForm {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.containerInputImgs {
+    width: 100%;
+    height: 13vh;
+    margin-top: 10px;
+}
+
+.containerListImgForm {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+}
+
+.containerListImgForm::-webkit-scrollbar {
+    display: none;
+    /* Safari và Chrome */
+}
+
+.containerFileImg {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgForm {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(210, 210, 210, 0.7);
+}
+
+.buttonRemoveImage {
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    width: auto;
+    height: auto;
+}
+
+.containerInput {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.textLable {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputForm {
+    width: 100%;
+    height: 30px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border-width: 0.1px;
+    padding-left: 10px;
+    max-lines: 1;
+}
+
+.inputNumberForm {
+    width: 20%;
+    height: 30px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border-width: 0.1px;
+    padding-left: 10px;
+    max-lines: 1;
+    text-align: end;
+}
+
+.containerInputPrice {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textPrice {
+    font-size: 20;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+}
+
+.inputFormDescription {
+    width: 100%;
+    height: 70px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border-width: 0.1px;
+    padding-left: 10px;
+    line-height: 1.5em;
+    /* Độ cao của mỗi dòng */
+    overflow: hidden;
+    /* Ẩn phần dư thừa */
+    resize: none;
+    /* Không cho phép thay đổi kích thước */
+    vertical-align: top;
+    /* Hiển thị từ góc trên bên trái */
+}
+
+.containerListProduct {
+    width: 100%;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+}
+
+.containerListProduct::-webkit-scrollbar {
+    display: none;
+    /* Safari và Chrome */
+}
+
+.containerContentDescription {
+    width: 100px;
+    overflow-x: auto;
+}
+
+.containerContentDescription::-webkit-scrollbar {
+    display: none;
+}
+
+.containerCategoriesManager {
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center
+}
